@@ -6,7 +6,11 @@ body {
   background-repeat: repeat-x;
   color: white;
   height: 80px;
-  
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
 }
 
 .navbar a {
@@ -45,7 +49,6 @@ body {
 }
 
 .quote-text {
-  /* background-color:rgb(252, 244, 222); */
   color:rgb(143, 27, 27);
   text-shadow:rgba(15, 15, 15, 0.363) 2px 2px;
   width: 50%;
@@ -116,7 +119,7 @@ button {
   background-color: white;
 }
 
-.about-me-card{
+.about-me-card {
   width: 50%;
 }
 
@@ -124,15 +127,15 @@ button {
   width: 50%;
 }
 
-.about-me-heading{
+.about-me-heading {
   font-size: 4vh;
   font-weight: bolder;
   text-align: center;
 }
 
 .about-me-text {
-  font-size: 2vh;  
-  font-weight: bold; 
+  font-size: 2vh; 
+  font-weight: bold;
   text-align: right;
 }
 
@@ -142,11 +145,11 @@ button {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color:white;
+  color: white;
 }
 
 .icon-footer {
-  font-size: 40px; 
+  font-size: 40px;
   color: white;
   text-align: center;
 }
@@ -174,7 +177,6 @@ button {
   .recent-project-info {
     width: 100%;
   }
-  
 }
 
 @media (max-width: 425px) {
@@ -206,7 +208,7 @@ button {
     width: 20%;
   }
 
-  .about-me-card{
+  .about-me-card {
     width: 75%;
   }
 
@@ -223,8 +225,6 @@ button {
   }
 
   .form-text {
-    
     font-size: 20px;
   }
-  
 }
