@@ -99,11 +99,6 @@ body {
   opacity: 0.79;
 }
 
-.recent-project-info h2,
-p {
-  opacity: 1;
-}
-
 button {
   margin-right: 10px;
   border-radius: 5px;
@@ -114,6 +109,11 @@ button {
   padding: 30px;
   border-style: solid;
   border-color: rgb(201, 157, 106);
+}
+
+.project-card > p {
+  text-shadow: white 1px 1px;
+  font-size: 2vh;
 }
 
 .about-me {
@@ -206,6 +206,15 @@ button {
 
   .my-recent-work-line {
     width: 20%;
+  }
+
+  .project-card > p {
+    text-shadow: white 1px 1px;
+    font-size: 12px;
+  }
+
+  .project-card > button {
+    font-size: 12px;
   }
 
   .about-me-card {
