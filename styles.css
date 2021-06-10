@@ -1,6 +1,7 @@
 body {
   background-image: url('./assets/1.webp');
 }
+
 .navbar {
   background-image: url('./assets/com-gif-maker.gif');
   background-repeat: repeat-x;
@@ -43,14 +44,13 @@ body {
 }
 
 .quote-image {
-  /* background-color:rgb(243, 219, 152); */
   height: 400px;
-  width: 42%; 
+  width: 42%;
 }
 
 .quote-text {
-  color:rgb(143, 27, 27);
-  text-shadow:rgba(15, 15, 15, 0.363) 2px 2px;
+  color: rgb(143, 27, 27);
+  text-shadow: rgba(15, 15, 15, 0.363) 2px 2px;
   width: 50%;
   padding: 4vw;
   text-align: right;
@@ -84,7 +84,7 @@ body {
 .recent-project-image {
   padding: 4vw;
   width: 50%;
-  background-color:rgb(201, 157, 106);
+  background-color: rgb(201, 157, 106);
   border-radius: 5px;
 }
 
@@ -99,7 +99,8 @@ body {
   opacity: 0.79;
 }
 
-.recent-project-info h2, p {
+.recent-project-info h2,
+p {
   opacity: 1;
 }
 
@@ -170,7 +171,6 @@ button {
   }
 
   .recent-project-image {
-    
     width: 100%;
   }
 
