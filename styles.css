@@ -24,6 +24,11 @@ body {
   font-size: 15px;
 }
 
+.active, .collapsible:hover {
+  background-color: none;
+}
+
+
 .content {
   padding: 0 18px;
   display: none;
