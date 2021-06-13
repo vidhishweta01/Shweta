@@ -33,11 +33,11 @@ body {
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
+.active, 
+.collapsible:hover {
   background-color: none;
   text-decoration: underline;
 }
-
 
 .content {
   padding: 0 18px;
@@ -270,6 +270,4 @@ button {
     font-size: 18px;
     padding-top: 0;
   }
-  
-
 }
