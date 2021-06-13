@@ -14,9 +14,18 @@ body {
   height: 80px;
 }
 
+.image-heading {
+  padding-top: 2vh;
+  padding-left: 1vw;
+}
+
 .navbar a {
   color: white;
   text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
 }
 
 .collapsible {
@@ -26,6 +35,7 @@ body {
 
 .active, .collapsible:hover {
   background-color: none;
+  text-decoration: underline;
 }
 
 
@@ -241,4 +251,25 @@ button {
   .form-text {
     font-size: 20px;
   }
+}
+
+@media (max-width: 375px) {
+  .image-div {
+    width: 10%;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .profile-image {
+    margin-left: 2px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .image-heading {
+    font-size: 18px;
+    padding-top: 0;
+  }
+  
+
 }
