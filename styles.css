@@ -33,7 +33,7 @@ body {
   font-size: 15px;
 }
 
-.active, 
+.active,
 .collapsible:hover {
   background-color: none;
   text-decoration: underline;
