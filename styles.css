@@ -6,7 +6,9 @@ body {
   background-image: url('./assets/com-gif-maker.gif');
   background-repeat: repeat-x;
   color: white;
-  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 7;
 }
 
 .profile-image {
@@ -59,6 +61,7 @@ body {
 }
 
 .quote-image {
+  margin-top: 80px;
   height: 400px;
   width: 42%;
 }
@@ -70,6 +73,7 @@ body {
   padding: 4vw;
   text-align: right;
   background-color: white;
+  margin-top: 80px;
 }
 
 .quote-text h1 {
